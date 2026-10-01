@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poke Client</title>
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand"><div class="logo">P</div><div><strong>Poke Client</strong><span>1.21.11</span></div></div>
+      <nav>
+        <button class="nav active" data-page="home">⌂ <span>Home</span></button>
+        <button class="nav" data-page="mods">▦ <span>Mods</span></button>
+        <button class="nav" data-page="profiles">◈ <span>Profiles</span></button>
+        <button class="nav" data-page="servers">◉ <span>Servers</span></button>
+        <button class="nav" data-page="settings">⚙ <span>Settings</span></button>
+      </nav>
+      <div class="sidebar-bottom"><div class="account"><div class="avatar">?</div><div><b>Not signed in</b><small>Microsoft account</small></div></div></div>
+    </aside>
+    <main>
+      <header><div class="crumb" id="pageTitle">Home</div><div class="header-actions"><button class="ghost" id="loginBtn">Sign in</button><button class="iconBtn" id="minimizeBtn">—</button><button class="iconBtn" id="closeBtn">×</button></div></header>
+      <section id="content"></section>
+    </main>
+  </div>
+  <script src="./src/app.js"></script>
+</body>
+</html>

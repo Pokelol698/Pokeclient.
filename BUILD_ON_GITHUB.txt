@@ -1,0 +1,14 @@
+POKE CLIENT — BUILD ON GITHUB
+
+1. Go to github.com and create a NEW repository.
+2. Upload everything from this folder into the repository.
+3. Commit the files to the main branch.
+4. Click the Actions tab.
+5. Open "Build Poke Client".
+6. Wait for the four platform jobs to finish.
+7. Open the workflow run and download the Windows, Linux or macOS artifact.
+
+You do NOT need to install Node, Rust, .NET or Tauri on your PC.
+
+For a GitHub Release, create a tag named v0.1.0 (or another vX.Y.Z version).
+The Release Poke Client workflow will build and publish installers.
